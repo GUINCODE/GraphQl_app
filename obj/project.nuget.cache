@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tmcgfVKJ5XCz0lVtgUsBw7msARTx4PKCwYD/w5xKRrtxVhyri9Cd4Dhd1tBD7QMLqfaS5iPP1n3KyD8SthLzgg==",
+  "dgSpecHash": "NqbfaqEumTiKstef/U4dTyi2uKy6bJ3Ta1RR51g9faXIV8y/Q4jEtSJxbvg0gpmx1iFJfqdWvVlojfhIujJsGw==",
   "success": true,
   "projectFilePath": "/Users/aguibou/Desktop/DotNet Work/GraphQl_app/GraphQl_app.csproj",
   "expectedPackageFiles": [
+    "/Users/aguibou/.nuget/packages/graphql.server.ui.altair/5.2.0/graphql.server.ui.altair.5.2.0.nupkg.sha512",
+    "/Users/aguibou/.nuget/packages/graphql.server.ui.graphiql/5.2.0/graphql.server.ui.graphiql.5.2.0.nupkg.sha512",
+    "/Users/aguibou/.nuget/packages/graphql.server.ui.voyager/5.2.0/graphql.server.ui.voyager.5.2.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/greendonut/12.6.0/greendonut.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate/12.6.0/hotchocolate.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.abstractions/12.6.0/hotchocolate.abstractions.12.6.0.nupkg.sha512",

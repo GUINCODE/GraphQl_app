@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "GraphQl_app/1.0.0": {
         "dependencies": {
+          "GraphQL.Server.Ui.Altair": "5.2.0",
+          "GraphQL.Server.Ui.GraphiQL": "5.2.0",
+          "GraphQL.Server.Ui.Voyager": "5.2.0",
           "HotChocolate.AspNetCore": "12.6.0",
           "HotChocolate.Data": "12.6.0",
           "HotChocolate.Data.EntityFramework": "12.6.0",
@@ -18,6 +21,30 @@
         },
         "runtime": {
           "GraphQl_app.dll": {}
+        }
+      },
+      "GraphQL.Server.Ui.Altair/5.2.0": {
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.Altair.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Server.Ui.GraphiQL/5.2.0": {
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.GraphiQL.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Server.Ui.Voyager/5.2.0": {
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.Voyager.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
         }
       },
       "GreenDonut/12.6.0": {
@@ -793,6 +820,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GraphQL.Server.Ui.Altair/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A2B+oWLqEDiHv+u21ZgeGHfWLSqKeDcDnpEQEObzU4EM98jQ4/4mHM+96PWmcm7VU5S6xL97LC58enuZkOcZdg==",
+      "path": "graphql.server.ui.altair/5.2.0",
+      "hashPath": "graphql.server.ui.altair.5.2.0.nupkg.sha512"
+    },
+    "GraphQL.Server.Ui.GraphiQL/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cSaxvEEn1k9KI8tEgX6PBRdlRgX3uIFmDpbawNUsUm5uViwi9pESI/H4bRfOpStkQJew9K4YsbyTi+pfNIvN2w==",
+      "path": "graphql.server.ui.graphiql/5.2.0",
+      "hashPath": "graphql.server.ui.graphiql.5.2.0.nupkg.sha512"
+    },
+    "GraphQL.Server.Ui.Voyager/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PQW4anDYzMIRmKyY540byegRQRtvu6RsaVc5PezLpN0/BYHF5SNQUTeccsGlHZ+1KluJtR5iHSE0jF8MBPOvDA==",
+      "path": "graphql.server.ui.voyager/5.2.0",
+      "hashPath": "graphql.server.ui.voyager.5.2.0.nupkg.sha512"
     },
     "GreenDonut/12.6.0": {
       "type": "package",

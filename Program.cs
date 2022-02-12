@@ -1,5 +1,6 @@
 using GraphQl_app.Data;
 using GraphQl_app.GraphQL_Types;
+using HotChocolate.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -38,5 +39,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapGraphQL(); //permet de donner une route par defaut "/graphql"
+app.MapGraphQL(); //permet de donner une route par defaut "/graphql" pour ouvrire l'ide Banana cake pop
+app.UseGraphQLVoyager("/voyager");
+app.UseGraphQLAltair("/altaire");
+app.UseGraphQLGraphiQL("/graphiql");
 app.Run();

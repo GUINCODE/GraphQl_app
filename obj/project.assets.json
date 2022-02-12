@@ -2,6 +2,42 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "GraphQL.Server.Ui.Altair/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GraphQL.Server.Ui.Altair.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.Altair.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "GraphQL.Server.Ui.GraphiQL/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GraphQL.Server.Ui.GraphiQL.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.GraphiQL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "GraphQL.Server.Ui.Voyager/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GraphQL.Server.Ui.Voyager.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.Server.Ui.Voyager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "GreenDonut/12.6.0": {
         "type": "package",
         "dependencies": {
@@ -1092,6 +1128,63 @@
     }
   },
   "libraries": {
+    "GraphQL.Server.Ui.Altair/5.2.0": {
+      "sha512": "A2B+oWLqEDiHv+u21ZgeGHfWLSqKeDcDnpEQEObzU4EM98jQ4/4mHM+96PWmcm7VU5S6xL97LC58enuZkOcZdg==",
+      "type": "package",
+      "path": "graphql.server.ui.altair/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql.server.ui.altair.5.2.0.nupkg.sha512",
+        "graphql.server.ui.altair.nuspec",
+        "lib/net5.0/GraphQL.Server.Ui.Altair.dll",
+        "lib/net5.0/GraphQL.Server.Ui.Altair.xml",
+        "lib/net6.0/GraphQL.Server.Ui.Altair.dll",
+        "lib/net6.0/GraphQL.Server.Ui.Altair.xml",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Altair.dll",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Altair.xml",
+        "logo.64x64.png"
+      ]
+    },
+    "GraphQL.Server.Ui.GraphiQL/5.2.0": {
+      "sha512": "cSaxvEEn1k9KI8tEgX6PBRdlRgX3uIFmDpbawNUsUm5uViwi9pESI/H4bRfOpStkQJew9K4YsbyTi+pfNIvN2w==",
+      "type": "package",
+      "path": "graphql.server.ui.graphiql/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql.server.ui.graphiql.5.2.0.nupkg.sha512",
+        "graphql.server.ui.graphiql.nuspec",
+        "lib/net5.0/GraphQL.Server.Ui.GraphiQL.dll",
+        "lib/net5.0/GraphQL.Server.Ui.GraphiQL.xml",
+        "lib/net6.0/GraphQL.Server.Ui.GraphiQL.dll",
+        "lib/net6.0/GraphQL.Server.Ui.GraphiQL.xml",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.xml",
+        "logo.64x64.png"
+      ]
+    },
+    "GraphQL.Server.Ui.Voyager/5.2.0": {
+      "sha512": "PQW4anDYzMIRmKyY540byegRQRtvu6RsaVc5PezLpN0/BYHF5SNQUTeccsGlHZ+1KluJtR5iHSE0jF8MBPOvDA==",
+      "type": "package",
+      "path": "graphql.server.ui.voyager/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql.server.ui.voyager.5.2.0.nupkg.sha512",
+        "graphql.server.ui.voyager.nuspec",
+        "lib/net5.0/GraphQL.Server.Ui.Voyager.dll",
+        "lib/net5.0/GraphQL.Server.Ui.Voyager.xml",
+        "lib/net6.0/GraphQL.Server.Ui.Voyager.dll",
+        "lib/net6.0/GraphQL.Server.Ui.Voyager.xml",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Voyager.dll",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Voyager.xml",
+        "logo.64x64.png"
+      ]
+    },
     "GreenDonut/12.6.0": {
       "sha512": "MBgThBuwSQD40HqmjqybtNN0AfDpvSfUzHzm/r/pR3CZ+vtsGaA0b+ToQHHMKbmPxOZLcIbmndIkPlJDfpY0BQ==",
       "type": "package",
@@ -3154,6 +3247,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GraphQL.Server.Ui.Altair >= 5.2.0",
+      "GraphQL.Server.Ui.GraphiQL >= 5.2.0",
+      "GraphQL.Server.Ui.Voyager >= 5.2.0",
       "HotChocolate.AspNetCore >= 12.6.0",
       "HotChocolate.Data >= 12.6.0",
       "HotChocolate.Data.EntityFramework >= 12.6.0",
@@ -3200,6 +3296,18 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "GraphQL.Server.Ui.Altair": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
+          "GraphQL.Server.Ui.GraphiQL": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
+          "GraphQL.Server.Ui.Voyager": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
           "HotChocolate.AspNetCore": {
             "target": "Package",
             "version": "[12.6.0, )"

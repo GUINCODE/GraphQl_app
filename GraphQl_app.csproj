@@ -5,6 +5,9 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<ItemGroup>
+		<PackageReference Include="GraphQL.Server.Ui.Altair" Version="5.2.0" />
+		<PackageReference Include="GraphQL.Server.Ui.GraphiQL" Version="5.2.0" />
+		<PackageReference Include="GraphQL.Server.Ui.Voyager" Version="5.2.0" />
 		<PackageReference Include="HotChocolate.AspNetCore" Version="12.6.0" />
 		<PackageReference Include="HotChocolate.Data" Version="12.6.0" />
 		<PackageReference Include="HotChocolate.Data.EntityFramework" Version="12.6.0" />

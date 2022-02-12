@@ -89,10 +89,13 @@
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GraphQl_app.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/ref/GraphQl_app.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GraphQl_app.pdb
+/Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.Altair.dll
+/Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.Voyager.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GreenDonut.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Abstractions.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.AspNetCore.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Data.dll
+/Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Data.EntityFramework.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Execution.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Fetching.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Language.dll
@@ -164,4 +167,4 @@
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/obj/Debug/net6.0/ref/GraphQl_app.dll
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/obj/Debug/net6.0/GraphQl_app.pdb
 /Users/aguibou/Desktop/DotNet Work/GraphQl_app/obj/Debug/net6.0/GraphQl_app.genruntimeconfig.cache
-/Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/HotChocolate.Data.EntityFramework.dll
+/Users/aguibou/Desktop/DotNet Work/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.GraphiQL.dll
