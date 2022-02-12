@@ -17,8 +17,12 @@ builder.Services.AddDbContext<MyAppContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddGraphQLServer()
-.AddQueryType<QueryType>()
-.AddMutationType<MutationType>();
+            .AddQueryType<QueryType>()
+            .AddMutationType<MutationType>()
+            .AddProjections()
+            .AddFiltering()
+            .AddSorting();
+
 
 var app = builder.Build();
 

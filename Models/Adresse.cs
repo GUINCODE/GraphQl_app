@@ -5,6 +5,7 @@ namespace GraphQl_app.Models
         public int Id { get; set; }
         public string AdresseMail { get; set; }
         public string AdressePostale { get; set; }
-        public ICollection<Client> Clients { get; set; }
+        public int ClientId { get; set; }
+        public Client Client { get; set; }
     }
 }

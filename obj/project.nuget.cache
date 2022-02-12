@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "k5eESCULjWkqp5mhiu/P89FcY1OHNvGz0IwuuiRlTeqiajfLX1fqEVSTyLv5E6xyW4UH2Dv8AkRVdLJ6SkfWOQ==",
+  "dgSpecHash": "tmcgfVKJ5XCz0lVtgUsBw7msARTx4PKCwYD/w5xKRrtxVhyri9Cd4Dhd1tBD7QMLqfaS5iPP1n3KyD8SthLzgg==",
   "success": true,
-  "projectFilePath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj",
+  "projectFilePath": "/Users/aguibou/Desktop/DotNet Work/GraphQl_app/GraphQl_app.csproj",
   "expectedPackageFiles": [
     "/Users/aguibou/.nuget/packages/greendonut/12.6.0/greendonut.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate/12.6.0/hotchocolate.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.abstractions/12.6.0/hotchocolate.abstractions.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.aspnetcore/12.6.0/hotchocolate.aspnetcore.12.6.0.nupkg.sha512",
+    "/Users/aguibou/.nuget/packages/hotchocolate.data/12.6.0/hotchocolate.data.12.6.0.nupkg.sha512",
+    "/Users/aguibou/.nuget/packages/hotchocolate.data.entityframework/12.6.0/hotchocolate.data.entityframework.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.execution/12.6.0/hotchocolate.execution.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.fetching/12.6.0/hotchocolate.fetching.12.6.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/hotchocolate.language/12.6.0/hotchocolate.language.12.6.0.nupkg.sha512",

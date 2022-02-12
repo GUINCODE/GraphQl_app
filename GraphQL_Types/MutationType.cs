@@ -1,5 +1,6 @@
 using GraphQl_app.Data;
 using GraphQl_app.Models;
+using GraphQl_app.Models.ManyToMany;
 
 namespace GraphQl_app.GraphQL_Types
 {
@@ -27,6 +28,24 @@ namespace GraphQl_app.GraphQL_Types
           context.Produits.Remove(produit);
           await context.SaveChangesAsync();
           return "Deleted";
+        }
+
+        public async Task<Client> AddClientAsync([Service] MyAppContext context, Client client){
+            context.Clients.Add(client);
+            await context.SaveChangesAsync();
+            return client;
+        }
+
+        public async Task<Abonnement> AddAbonnementAsync([Service] MyAppContext context, Abonnement abonnement){
+          context.Abonnements.Add(abonnement);
+          await context.SaveChangesAsync();
+          return abonnement;
+        }
+
+        public async Task<AbonnementClient> EnregAbonnement( [Service] MyAppContext context, AbonnementClient abonnementClient){
+          context.AbonnementClients.Add(abonnementClient);
+            await context.SaveChangesAsync();
+          return abonnementClient;
         }
 }
 }
