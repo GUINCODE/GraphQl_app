@@ -1,6 +1,7 @@
 using GraphQl_app.Data;
 using GraphQl_app.GraphQL_Types;
 using HotChocolate.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -13,16 +14,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<MyAppContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+builder.Services.AddDbContext<MyAppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddGraphQLServer()
             .AddQueryType<QueryType>()
             .AddMutationType<MutationType>()
+            .AddSubscriptionType<SubscriptionType>()
             .AddProjections()
             .AddFiltering()
-            .AddSorting();
+            .AddSorting()
+            .AddInMemorySubscriptions();
 
 
 var app = builder.Build();
@@ -34,6 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseWebSockets();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -4,7 +4,7 @@
 
 namespace GraphQl_app.Migrations
 {
-    public partial class ManyToManyEdit : Migration
+    public partial class AutoIncrementId : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -56,6 +56,7 @@ namespace GraphQl_app.Migrations
                     ClientId = table.Column<int>(type: "int", nullable: false),
                     AbonnementId = table.Column<int>(type: "int", nullable: false),
                     Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1")
                 },
                 constraints: table =>
                 {

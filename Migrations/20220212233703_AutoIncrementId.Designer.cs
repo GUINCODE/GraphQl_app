@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GraphQl_app.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    [Migration("20220212180237_ManyToManyEdit")]
-    partial class ManyToManyEdit
+    [Migration("20220212233703_AutoIncrementId")]
+    partial class AutoIncrementId
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -88,7 +88,10 @@ namespace GraphQl_app.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.HasKey("AbonnementId", "ClientId");
 
