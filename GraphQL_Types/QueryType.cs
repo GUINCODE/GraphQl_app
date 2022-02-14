@@ -1,9 +1,7 @@
 using GraphQl_app.Data;
 using GraphQl_app.Models;
 using GraphQl_app.Models.ManyToMany;
-using HotChocolate.Data;
-using HotChocolate.Types;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace GraphQl_app.GraphQL_Types
 {

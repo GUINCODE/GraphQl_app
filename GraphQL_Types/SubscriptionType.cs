@@ -1,4 +1,3 @@
-using System;
 using GraphQl_app.Models.ManyToMany;
 
 namespace GraphQl_app.GraphQL_Types
@@ -7,7 +6,6 @@ namespace GraphQl_app.GraphQL_Types
     {
         [Subscribe]
         [Topic]
-        [UseProjection]
         public AbonnementClient OnSouscriptionAdded([EventMessage] AbonnementClient abonnementClient)
         {
             return abonnementClient;
