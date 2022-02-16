@@ -255,3 +255,7 @@
 /Volumes/Authers/Learning auto-didact/dotnet/BoutiqueApp/obj/Debug/net6.0/ref/GraphQl_app.dll
 /Volumes/Authers/Learning auto-didact/dotnet/BoutiqueApp/obj/Debug/net6.0/GraphQl_app.pdb
 /Volumes/Authers/Learning auto-didact/dotnet/BoutiqueApp/obj/Debug/net6.0/GraphQl_app.genruntimeconfig.cache
+/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.Altair.dll
+/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.GraphiQL.dll
+/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/bin/Debug/net6.0/GraphQL.Server.Ui.Voyager.dll
+/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/bin/Debug/net6.0/HotChocolate.Data.EntityFramework.dll

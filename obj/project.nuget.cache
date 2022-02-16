@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3wlo/gKsqKV6wRf+1vsO/7FV9tTsdMNekWd7wQ3zO0iEE+r31cM0vizr12VKWGLTy1nv9gIIZZq2gj/nAeFdQ==",
+  "dgSpecHash": "hwx1stAj679e7ew0mSW0fZjsr4CQK5FkgXyBvgCMkUJoxeUQaTqr2PNcTvzYzP8cTNJFzdaRkiPUGlC95ndxwQ==",
   "success": true,
-  "projectFilePath": "/Volumes/Authers/Learning auto-didact/dotnet/BoutiqueApp/GraphQl_app.csproj",
+  "projectFilePath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj",
   "expectedPackageFiles": [
     "/Users/aguibou/.nuget/packages/graphql.server.ui.altair/5.2.0/graphql.server.ui.altair.5.2.0.nupkg.sha512",
     "/Users/aguibou/.nuget/packages/graphql.server.ui.graphiql/5.2.0/graphql.server.ui.graphiql.5.2.0.nupkg.sha512",

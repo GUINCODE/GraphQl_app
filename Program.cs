@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var myAllowSpecificOrigins = "_myAllowSpecificOrigins";
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -24,6 +25,19 @@ builder.Services.AddGraphQLServer()
             .AddSorting()
             .AddInMemorySubscriptions();
 
+// Enable CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: myAllowSpecificOrigins,
+        builder =>
+        {
+            builder.WithOrigins("*")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
+});
+
+
 
 var app = builder.Build();
 
@@ -36,6 +50,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseWebSockets();
 app.UseHttpsRedirection();
+app.UseCors(myAllowSpecificOrigins);
 
 app.UseAuthorization();
 
