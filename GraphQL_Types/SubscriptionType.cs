@@ -1,4 +1,7 @@
+using GraphQl_app.Data;
+using GraphQl_app.Models;
 using GraphQl_app.Models.ManyToMany;
+using GraphQl_app.Notifications;
 
 namespace GraphQl_app.GraphQL_Types
 {
@@ -6,9 +9,9 @@ namespace GraphQl_app.GraphQL_Types
     {
         [Subscribe]
         [Topic]
-        public AbonnementClient OnSouscriptionAdded([EventMessage] AbonnementClient abonnementClient)
+        public Notification OnSouscriptionAdded([EventMessage] Notification notification)
         {
-            return abonnementClient;
+            return notification;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj": {}
+    "/Volumes/Authers/Learning auto-didact/dotnet/GraphQL apps/GraphQl_app/GraphQl_app.csproj": {}
   },
   "projects": {
-    "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj": {
+    "/Volumes/Authers/Learning auto-didact/dotnet/GraphQL apps/GraphQl_app/GraphQl_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj",
+        "projectUniqueName": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQL apps/GraphQl_app/GraphQl_app.csproj",
         "projectName": "GraphQl_app",
-        "projectPath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/GraphQl_app.csproj",
+        "projectPath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQL apps/GraphQl_app/GraphQl_app.csproj",
         "packagesPath": "/Users/aguibou/.nuget/packages/",
-        "outputPath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQl_app/obj/",
+        "outputPath": "/Volumes/Authers/Learning auto-didact/dotnet/GraphQL apps/GraphQl_app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aguibou/.nuget/NuGet/NuGet.Config"

@@ -1,6 +1,7 @@
 using GraphQl_app.Data;
 using GraphQl_app.Models;
 using GraphQl_app.Models.ManyToMany;
+using GraphQl_app.Notifications;
 using HotChocolate.Subscriptions;
 
 namespace GraphQl_app.GraphQL_Types
@@ -53,9 +54,14 @@ namespace GraphQl_app.GraphQL_Types
              [Service] ITopicEventSender eventSender,
              CancellationToken cancellationToken)
         {
+
             context.AbonnementClients.Add(abonnementClient);
+            Notification notification = new();
+            notification.TypeNotif = "added_abonnement";
+            notification.AbonnementId = abonnementClient.AbonnementId;
+            notification.ClientId = abonnementClient.ClientId;
             await context.SaveChangesAsync(cancellationToken);
-            await  eventSender.SendAsync(nameof (SubscriptionType.OnSouscriptionAdded), abonnementClient, cancellationToken) ;
+            await  eventSender.SendAsync(nameof (SubscriptionType.OnSouscriptionAdded), notification, cancellationToken) ;
             return abonnementClient;
         }
     }
